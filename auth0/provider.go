@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/lallij/terraform-provider-auth0/version"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/meta"
+	"github.com/lallij/terraform-provider-auth0/version"
 
 	"gopkg.in/lallij/auth0.v9"
 	"gopkg.in/lallij/auth0.v9/management"

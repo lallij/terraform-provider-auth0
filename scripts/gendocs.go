@@ -1,3 +1,4 @@
+//go:build ignore
 // +build ignore
 
 package main
@@ -10,8 +11,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/lallij/terraform-provider-auth0/auth0"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
+	"github.com/lallij/terraform-provider-auth0/auth0"
 )
 
 var args = struct {

@@ -552,7 +552,6 @@ func expandConnectionOptionsSMS(d ResourceData) *management.ConnectionOptionsSMS
 		}
 	})
 
-
 	return o
 }
 

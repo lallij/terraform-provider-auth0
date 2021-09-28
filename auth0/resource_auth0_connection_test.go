@@ -6,10 +6,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lallij/terraform-provider-auth0/auth0/internal/random"
 	"github.com/hashicorp/go-multierror"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/terraform"
+	"github.com/lallij/terraform-provider-auth0/auth0/internal/random"
 	"gopkg.in/lallij/auth0.v9/management"
 )
 
@@ -653,7 +653,6 @@ resource "auth0_connection" "sms" {
 	}
 }
 `
-
 
 func TestAccConnectionEmail(t *testing.T) {
 

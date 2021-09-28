@@ -3,10 +3,10 @@ package auth0
 import (
 	"testing"
 
-	"github.com/lallij/terraform-provider-auth0/auth0/internal/random"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/validation"
 	"github.com/hashicorp/terraform-plugin-sdk/terraform"
+	"github.com/lallij/terraform-provider-auth0/auth0/internal/random"
 )
 
 func TestAccRule(t *testing.T) {
