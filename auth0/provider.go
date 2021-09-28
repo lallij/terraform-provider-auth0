@@ -8,8 +8,8 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/meta"
 	"github.com/lallij/terraform-provider-auth0/version"
 
-	"gopkg.in/lallij/auth0.v9"
-	"gopkg.in/lallij/auth0.v9/management"
+	"gopkg.in/auth0.v5"
+	"gopkg.in/auth0.v5/management"
 )
 
 var provider *schema.Provider

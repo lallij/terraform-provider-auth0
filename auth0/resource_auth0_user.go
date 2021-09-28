@@ -10,8 +10,8 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/helper/structure"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/validation"
 
-	"gopkg.in/lallij/auth0.v9"
-	"gopkg.in/lallij/auth0.v9/management"
+	"gopkg.in/auth0.v5"
+	"gopkg.in/auth0.v5/management"
 )
 
 func newUser() *schema.Resource {

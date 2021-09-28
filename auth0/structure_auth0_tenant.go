@@ -1,6 +1,6 @@
 package auth0
 
-import "gopkg.in/lallij/auth0.v9/management"
+import "gopkg.in/auth0.v5/management"
 
 func flattenTenantChangePassword(changePassword *management.TenantChangePassword) []interface{} {
 	m := make(map[string]interface{})

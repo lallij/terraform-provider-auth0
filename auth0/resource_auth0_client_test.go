@@ -11,7 +11,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/terraform"
 	"github.com/lallij/terraform-provider-auth0/auth0/internal/random"
 
-	"gopkg.in/lallij/auth0.v9/management"
+	"gopkg.in/auth0.v5/management"
 )
 
 func init() {
