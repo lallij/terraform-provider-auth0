@@ -21,7 +21,7 @@ Terraform 0.13 and higher uses the [Terraform Registry](https://registry.terrafo
 terraform {
   required_providers {
     auth0 = {
-      source  = "alexkappa/auth0"
+      source  = "lallij/auth0"
       version = "0.17.1"
     }
   }
