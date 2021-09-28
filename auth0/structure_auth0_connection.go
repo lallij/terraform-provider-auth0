@@ -3,8 +3,8 @@ package auth0
 import (
 	"log"
 
-	"gopkg.in/lallij/auth0.v1"
-	"gopkg.in/lallij/auth0.v1/management"
+	"gopkg.in/lallij/auth0.v9"
+	"gopkg.in/lallij/auth0.v9/management"
 )
 
 func flattenConnectionOptions(d ResourceData, options interface{}) []interface{} {

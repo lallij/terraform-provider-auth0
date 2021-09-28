@@ -430,4 +430,4 @@ ENHANCEMENTS:
 
 NOTES:
 
-* Re-imported Auth0 SDK from `gopkg.in/auth0.v1`.
+* Re-imported Auth0 SDK from `gopkg.in/auth0.v9`.

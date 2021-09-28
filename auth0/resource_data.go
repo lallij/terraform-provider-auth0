@@ -7,7 +7,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/structure"
 
-	"gopkg.in/lallij/auth0.v1"
+	"gopkg.in/lallij/auth0.v9"
 )
 
 // ResourceData generalises schema.ResourceData so that we can reuse the

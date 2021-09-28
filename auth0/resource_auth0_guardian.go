@@ -5,7 +5,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/validation"
-	"gopkg.in/lallij/auth0.v1/management"
+	"gopkg.in/lallij/auth0.v9/management"
 )
 
 func newGuardian() *schema.Resource {
