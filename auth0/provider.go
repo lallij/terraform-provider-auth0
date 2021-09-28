@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/alexkappa/terraform-provider-auth0/version"
+	"github.com/lallij/terraform-provider-auth0/version"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/meta"
 
-	"gopkg.in/auth0.v5"
-	"gopkg.in/auth0.v5/management"
+	"gopkg.in/lallij/auth0.v1"
+	"gopkg.in/lallij/auth0.v1/management"
 )
 
 var provider *schema.Provider

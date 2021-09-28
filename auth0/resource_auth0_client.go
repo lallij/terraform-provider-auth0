@@ -7,10 +7,10 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/validation"
 
-	"gopkg.in/auth0.v5"
-	"gopkg.in/auth0.v5/management"
+	"gopkg.in/lallij/auth0.v1"
+	"gopkg.in/lallij/auth0.v1/management"
 
-	v "github.com/alexkappa/terraform-provider-auth0/auth0/internal/validation"
+	v "github.com/lallij/terraform-provider-auth0/auth0/internal/validation"
 )
 
 func newClient() *schema.Resource {

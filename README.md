@@ -1,7 +1,7 @@
 Auth0 Terraform Provider
 ========================
 
-[![Build](https://github.com/alexkappa/terraform-provider-auth0/workflows/Build/badge.svg)](https://github.com/alexkappa/terraform-provider-auth0/actions)
+[![Build](https://github.com/lallij/terraform-provider-auth0/workflows/Build/badge.svg)](https://github.com/lallij/terraform-provider-auth0/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/9c49c10286123b716c79/maintainability)](https://codeclimate.com/github/alexkappa/terraform-provider-auth0/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/9c49c10286123b716c79/test_coverage)](https://codeclimate.com/github/alexkappa/terraform-provider-auth0/test_coverage)
 [![Gitter](https://badges.gitter.im/terraform-provider-auth0/community.svg)](https://gitter.im/terraform-provider-auth0/community)
@@ -36,7 +36,7 @@ $ terraform init
 
 **Terraform 0.12.x**
 
-For older versions of Terraform, binaries are available at the [releases](https://github.com/alexkappa/terraform-provider-auth0/releases) page. Download one that corresponds to your operating system / architecture, and move to the `~/.terraform.d/plugins/` directory. Finally, run terraform init.
+For older versions of Terraform, binaries are available at the [releases](https://github.com/lallij/terraform-provider-auth0/releases) page. Download one that corresponds to your operating system / architecture, and move to the `~/.terraform.d/plugins/` directory. Finally, run terraform init.
 
 ```
 provider "auth0" {}

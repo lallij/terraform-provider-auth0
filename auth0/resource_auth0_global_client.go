@@ -5,7 +5,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 
-	"gopkg.in/auth0.v5/management"
+	"gopkg.in/lallij/auth0.v1/management"
 )
 
 func newGlobalClient() *schema.Resource {

@@ -3,8 +3,8 @@ package auth0
 import (
 	"log"
 
-	"gopkg.in/auth0.v5"
-	"gopkg.in/auth0.v5/management"
+	"gopkg.in/lallij/auth0.v1"
+	"gopkg.in/lallij/auth0.v1/management"
 )
 
 func flattenConnectionOptions(d ResourceData, options interface{}) []interface{} {
@@ -335,7 +335,7 @@ func expandConnection(d ResourceData) *management.Connection {
 		default:
 			log.Printf("[WARN]: Unsupported connection strategy %s", s)
 			log.Printf("[WARN]: Raise an issue with the auth0 provider in order to support it:")
-			log.Printf("[WARN]: 	https://github.com/alexkappa/terraform-provider-auth0/issues/new")
+			log.Printf("[WARN]: 	https://github.com/lallij/terraform-provider-auth0/issues/new")
 		}
 	})
 
