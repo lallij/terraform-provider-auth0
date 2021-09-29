@@ -8,4 +8,4 @@ require (
 	gopkg.in/auth0.v5 v5.19.2
 )
 
-replace gopkg.in/auth0.v5 v5.19.2 => github.com/lallij/auth0 v0.0.2-fork
+replace gopkg.in/auth0.v5 v5.19.2 => github.com/lallij/auth0 v0.0.3-fork

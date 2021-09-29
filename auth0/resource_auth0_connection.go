@@ -457,7 +457,7 @@ var connectionSchema = map[string]*schema.Schema{
 						},
 					},
 				},
-				"forward_request_info": {
+				"forward_req_info": {
 					Type:        schema.TypeBool,
 					Optional:    true,
 					Description: "Specifies whether or not request info should be forwarded to sms gateway",

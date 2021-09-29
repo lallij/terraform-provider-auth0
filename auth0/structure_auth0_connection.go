@@ -179,7 +179,7 @@ func flattenConnectionOptionsSMS(o *management.ConnectionOptionsSMS) interface{}
 			"audience":              o.GatewayAuthentication.GetAudience(),
 			"secret_base64_encoded": o.GatewayAuthentication.GetSecretBase64Encoded(),
 		},
-		"forward_request_info": o.GetForwardRequestInfo(),
+		"forward_req_info": o.GetForwardReqInfo(),
 	}
 }
 
@@ -530,7 +530,7 @@ func expandConnectionOptionsSMS(d ResourceData) *management.ConnectionOptionsSMS
 		MessagingServiceSID:  String(d, "messaging_service_sid"),
 		Provider:             String(d, "provider"),
 		GatewayUrl:           String(d, "gateway_url"),
-		ForwardRequestInfo:   Bool(d, "forward_request_info"),
+		ForwardReqInfo:       Bool(d, "forward_req_info"),
 		DisableSignup:        Bool(d, "disable_signup"),
 		BruteForceProtection: Bool(d, "brute_force_protection"),
 	}

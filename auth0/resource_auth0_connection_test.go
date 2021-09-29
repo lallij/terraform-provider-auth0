@@ -649,7 +649,7 @@ resource "auth0_connection" "sms" {
 			secret = "4e2680bb72ec2ae24836476dd37ed6c2"
 			secret_base64_encoded = false
 		}
-		forward_request_info = true
+		forward_req_info = true
 	}
 }
 `
